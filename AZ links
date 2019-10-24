@@ -1,0 +1,25 @@
+https://docs.microsoft.com/en-us/azure/container-registry/container-registry-get-started-azure-cli
+
+https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-get-started-containers-linux
+
+https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-quickstart-containers-linux
+
+https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-tutorial-package-containers
+
+https://docs.microsoft.com/en-us/azure/container-registry/container-registry-authentication
+
+https://docs.microsoft.com/en-us/azure/container-registry/container-registry-auth-service-principal
+
+https://docs.microsoft.com/en-us/azure/service-fabric/configure-container-repository-credentials
+
+https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-get-started-linux#installation-methods
+
+Account related
+Azure login az login
+Azure list accounts az account list
+Azure change account az account set --subscription 25ec5bae-####-####-##########
+Show current account az account show
+ACR related
+Login az acr login --name <acr-name> --resource-group <rg01> --subscription <subs>
+List repositories az acr repository list --name <acr-name> --output table
+N.B. push a tag with :latest also. It's not automatic.
